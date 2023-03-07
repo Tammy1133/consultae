@@ -1,0 +1,23 @@
+.quote {
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.quotewhite {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+@media (max-width: 639px) {
+  .mytext {
+    text-align: center !important;
+  }
+}
+@media (max-width: 639px) {
+  input::placeholder {
+    font-size: 10px;
+  }
+}
