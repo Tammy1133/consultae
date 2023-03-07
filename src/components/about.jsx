@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 export const About = () => {
   return (
-    <div className="my-16">
+    <div id="about" className="my-16">
       <h5 className="font-bold text-3xl text-center   ">About us</h5>
       <div className="border-t-4 border-fuchsia-800 w-20 mx-auto"></div>
 

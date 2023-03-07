@@ -3,7 +3,7 @@ import call from "../utils/call.jpg";
 
 export const Request = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="  relative">
         <div className="absolute z-30 h-[100%] w-screen bg-fuchsia-800  opacity-50"></div>
         <div className="absolute z-30 h-[100%] w-screen bg-black  opacity-50"></div>

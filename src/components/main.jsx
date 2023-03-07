@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { About } from "./about";
 import { Companies } from "./companies";
 import { Footer } from "./footer";
@@ -7,8 +7,13 @@ import { Meet } from "./meet";
 import { Navbar } from "./navbar";
 import { Request } from "./request";
 import { Services } from "./services";
+import ScrollToTop from "react-scroll-to-top";
 
 export const Main = () => {
+  useEffect(() => {
+    window.addEventListener("scroll", console.log("scroll"));
+  }, []);
+
   return (
     <div>
       <Navbar></Navbar>
@@ -19,6 +24,7 @@ export const Main = () => {
       <Request></Request>
       <Companies></Companies>
       <Footer></Footer>
+      <ScrollToTop smooth />
     </div>
   );
 };

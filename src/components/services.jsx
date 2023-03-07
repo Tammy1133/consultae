@@ -2,7 +2,7 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <div>
+    <div id="services">
       <h5 className="font-bold text-3xl text-center   ">Our services</h5>
       <div className="border-t-4 border-fuchsia-800 w-20 mx-auto"></div>
 
