@@ -76,23 +76,22 @@ export const Navbar = () => {
         <div className="bg-fuchsia-900 p-1 w-[75vw] mb-[-30px] rounded-lg z-10">
           <div className="flex justify-center">
             <a href="#home">
-              {" "}
-              <h3 className="text-[9px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white  hover:scale-110 cursor-pointer transition">
+              <h3 className="text-[11px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white  hover:scale-110 cursor-pointer transition">
                 HOME
               </h3>
             </a>
             <a href="#about">
-              <h3 className="text-[9px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer   transition ">
+              <h3 className="text-[11px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer   transition ">
                 ABOUT
               </h3>
             </a>
             <a href="#services">
-              <h3 className="text-[9px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer   transition ">
+              <h3 className="text-[11px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer   transition ">
                 SERVICES
               </h3>
             </a>
             <a href="#contact">
-              <h3 className="text-[9px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer    transition  ">
+              <h3 className="text-[11px] sm:text-sm md:text-xl pl-5 md:pt-1 pt-2 text-white hover:scale-110 cursor-pointer    transition  ">
                 CONTACT US
               </h3>
             </a>

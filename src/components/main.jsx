@@ -15,7 +15,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <div>
+    <div className="">
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>

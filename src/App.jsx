@@ -7,6 +7,7 @@ import React, { Suspense, useState } from "react";
 // import Error from "./components/error";
 
 const Main = React.lazy(() => import("./components/main"));
+const Assignment = React.lazy(() => import("./components/assignment"));
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function App() {
       >
         <Routes>
           <Route element={<Main></Main>} path="/"></Route>
+          <Route element={<Assignment></Assignment>} path="/assignment"></Route>
 
           {/* <Route element={<Error></Error>} path="*" exact></Route> */}
         </Routes>
