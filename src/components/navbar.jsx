@@ -37,9 +37,7 @@ export const Navbar = () => {
                   <h3 className="text-sm text-slate-700 p-0 font-semibold  mytext ">
                     08112037963
                   </h3>
-                  <h3 className="text-sm text-slate-700">
-                    ajayitamilore@gmail.com
-                  </h3>
+                  <h3 className="text-sm text-slate-700">johndoe@gmail.com</h3>
                 </div>
               </div>
             </div>
